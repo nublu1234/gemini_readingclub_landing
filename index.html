@@ -309,7 +309,7 @@
     <!-- JavaScript 기능 구현 -->
     <script>
         const apiKey = ""; // API 키는 런타임에 자동 주입됩니다.
-        const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${apiKey}`;
+        const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=${apiKey}`;
 
         // Gemini API 호출 공통 함수
         async function callGeminiAPI(systemInstruction, userText) {
